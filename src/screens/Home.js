@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from 'react-native/types';
+import {Text} from "react-native"
 
 
-const Home = ({}) => {
+export const Home = ({}) => {
 
  return (
     <Text>Hii Home</Text>
