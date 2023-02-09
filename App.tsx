@@ -24,7 +24,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { Home } from './src/screens/Home';
+import Home  from './src/screens/Home';
+import StackNavigation  from './src/navigation/StackNavigation';
+import Route from './src/navigation/Route';
+// import { NavigationContainer } from '@react-navigation/native';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -55,9 +58,13 @@ function Section({children, title}: SectionProps): JSX.Element {
     </View>
   );
 }
+ const App=()=>{
 
-const App = () => {
-  return <Home/>;
+  return (
+  
+ <Route/>
+ 
+  )
 };
 
 const styles = StyleSheet.create({

@@ -1,0 +1,22 @@
+export const ASYNC_KEY = {
+    token: 'TOKEN',
+    auth: 'AUTH',
+    NotificationFlag: 'Flag',
+    LOOKUP: 'Lookup key',
+    WELCOME_SCREEN_VISITED: 'Welcome Screen',
+    SELECTED_THEME: 'Selected Theme',
+    LOGGEDIN: 'is Logged in',
+    LOGGEDIN_CREDS: 'LoginCredentials',
+    ACCOUNTS: 'Accounts',
+    USER_PROFILE_DATA: 'UserProfileData',
+    Promo_Api_Response: 'PromoApiResponse',
+    MOBILE: 'Mobile',
+    MOBILE_VISIBLE: 'MobileVisible',
+    googleIdToken: 'GoogleIdToken',
+    loginMethod: 'Login Method',
+    facebookIdToken: 'fbToken',
+    COUNT:'count',
+    RATE: 'rate',
+    feedback:"Feedback",
+    Feedback_flag:'FeedbackFlag'
+  };
