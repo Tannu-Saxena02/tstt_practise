@@ -3,11 +3,11 @@ import {Text, View} from "react-native";
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
 
-const Home = () => {
+const PromotionScreen = () => {
 
  return (
    <View>
-    <Text>Hii Home</Text>
+    <Text>Hii PromotionScreen</Text>
     <AntDesign
     name={'mobile1'}
     size={50}
@@ -19,4 +19,5 @@ const Home = () => {
  );
 
 }
-export default Home;
+
+export default PromotionScreen;
